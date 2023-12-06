@@ -1,0 +1,13 @@
+*{width: auto;height: auto;padding: 0;margin: 0;list-style: none;box-sizing: content-box;font-size: 12px;overflow: hidden;text-align: center;vertical-align: middle;
+    font-family: "SUIT";}
+
+html{width: 100%;height: 100%;overflow-y:auto;}
+body{width: 100%;}
+.app{width: 100%;}
+div{font-size: 0;}
+span{vertical-align: top;font-size: inherit;}
+
+.text_align_left{text-align: left;}
+.text_align_right{text-align: right;}
+
+/* 전부 삭제 */

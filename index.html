@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://prefab-range-407105.du.r.appspot.com data: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/fonts/stylesheet.css">
+        <link rel="stylesheet" href="css/index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="app">
+            <div class="index_background_div" id="grey1_background">
+                <div class="index_maxwidth_div">
+                    <div class="index_1_contents_div text_align_left">
+                        <p id="index_1_site_title">사이트로고</p>
+                    </div>
+                    <div class="index_1_contents_div text_align_right">
+                        <p id="index_1_search_icon">검색하기</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 슬라이드 배너 작업 -->
+            <div class="index_background_div" id="grey1_background">
+                <div class="index_slide_banner_layout">
+                    <div id="index_slide_banner_frame">
+                        <div class="index_slide_image_frame">
+                            <img class="index_slide_img_tag" src="img/banner_image_3.jpg" alt="사이트 슬라이드 이미지 3"/>
+                        </div>
+                        <div class="index_slide_image_frame">
+                            <img class="index_slide_img_tag" src="img/banner_image_1.jpg" alt="사이트 슬라이드 이미지 1"/>
+                        </div>
+                        <div class="index_slide_image_frame">
+                            <img class="index_slide_img_tag" src="img/banner_image_2.jpg" alt="사이트 슬라이드 이미지 2"/>
+                        </div>
+                    </div>
+                    <div id="index_slide_number_bg">
+                        <p class="index_slide_number" id="index_slide_number_now">1</p>
+                        <p class="index_slide_number">&nbsp;/&nbsp;3</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 두번째 작업 -->
+            <div class="index_background_div" id="grey6_background">
+                <div class="index_maxwidth_div">
+                    <h1 id="index_2_h1_ment" class="text_align_left">
+                        이 웹사이트는
+                        <span class="index_ment_point_red">개발을 꿈꾸는 모든 분들께</span>
+                        도움이 될 사이트입니다.
+                    </h1>
+                </div>
+                <div class="index_maxwidth_div">
+                    <div class="index_2_contents_div white_background">
+                        <h2 class="index_2_big_text">"기초로 끝까지"</h2>
+                    </div>
+                    <div class="index_2_contents_div white_background">
+                        <h2 class="index_2_big_text">"자세한 설명"</h2>
+                    </div>
+                    <div class="index_2_contents_div white_background">
+                        <h2 class="index_2_big_text">"노하우도 함께"</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- 세번째 작업 -->
+            <div class="index_background_div" id="grey2_background">
+                <div class="index_maxwidth_div">
+                    <div class="index_3_contents_div">
+                        <div class="index_3_image_frame">
+                            <img id="index_3_image_1" src="img/sample_image_1.jpg" alt="사이트 샘플 이미지 1"/>
+                        </div>
+                    </div>
+                    <div class="index_3_contents_div">
+                        <div class="index_3_image_frame">
+                            <img id="index_3_image_2" src="img/sample_image_2.jpg" alt="사이트 샘플 이미지 2"/>
+                        </div>
+                    </div>
+                    <div class="index_3_contents_div">
+                        <div class="index_3_image_frame">
+                            <img id="index_3_image_3" src="img/sample_image_3.jpg" alt="사이트 샘플 이미지 3"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 네번째 작업 -->
+            <div class="index_background_div" id="grey5_background">
+                <div class="index_maxwidth_div position_rel">
+                    <div class="index_4_contents_div">
+                        <a href="secondPage.html" id="index_4_move_btn" target="_blank">페이지 이동</a>
+                    </div>
+                </div>
+            </div>
+            <!-- 다섯번째 작업 -->
+            <div class="index_background_div" id="grey3_background">
+                <div class="index_maxwidth_div">
+                    <div class="index_5_contents_div">
+                        <input id="index_5_text_input" type="text" placeholder="필요한 단어를 입력하세요."/>
+                        <a id="index_5_data_send">입력한 단어 전송</a>
+                    </div>
+                    <div class="index_5_contents_div" id="index_5_image_preview" >
+                        <label for="index_5_file_input" id="index_5_file_input_label">업로드 버튼</label>
+                        <input id="index_5_file_input" type="file" accept="image/*" multiple/>
+                    </div>
+                </div>
+            </div>
+            <div id="teal_button"></div>
+            <div id="index_popup_1_bg">
+                <div id="index_popup_center_layout">
+                    <div class="index_popup_1_bar text_align_right">
+                        <p id="index_popup_1_close">X</p>
+                    </div>
+                    <div id="index_popup_1_body">
+                        <p id="index_popup_1_body_content">공지사항을 표시합니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
