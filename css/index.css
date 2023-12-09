@@ -91,6 +91,10 @@ input:focus{outline: none;}
 
 #index_5_data_send{width: 160px;display: block;padding: 16px 0px;background-color: #57efc4;color: #ffffff;font-weight: 500;font-size: 16px;text-decoration: none;border-radius: 8px;}
 
+#grey7_background{background-color: #f0f0f0;}
+.index_6_contents_div{position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);}
+#index_6_call_camera{width: 240px;display: block;padding: 16px 0px;background-color: #472835;color: #ffffff;font-weight: 500;font-size: 16px;text-decoration: none;border-radius: 8px;}
+
 @media screen and (max-width: 720px) {
     #index_popup_center_layout{width: 90%; height: 70%;}
     .index_popup_1_bar{width: 90%;padding: 10px 5%;}

@@ -155,3 +155,21 @@ send_button.addEventListener(`click`,()=>{
         console.error(`전송 오류:`, error)
     });
 });
+
+document.addEventListener(`deviceready`, onDeviceReady, false);
+// 스마트폰 사용 기능 준비가 완료되면 이벤트 연결
+
+function onDeviceReady() {
+    const call_camera = document.getElementById(`index_6_call_camera`);
+    call_camera.addEventListener(`click`,()=>{
+        navigator.camera.getPicture(()=>{
+            // 사진 찍고 난 후
+            alert(`촬영 성공`);
+        }, ()=>{
+            // 사진을 찍지 않고 나왔을 때
+            alert(`촬영 실패`)
+        });
+    });
+};
+
+
